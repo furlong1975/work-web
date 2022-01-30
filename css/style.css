@@ -337,6 +337,10 @@
         color: #383838;
         transition: .5s;
     }
+    
+    textarea.form-control {
+        height: 130px;
+    }
     /* 18 */
     
     .modal-body p {
@@ -348,12 +352,28 @@
         border-color: #dc3545;
     }
     
+    @media screen and (max-width: 1200px) {
+        .forma_00 {
+            top: 70px;
+        }
+        .forma_04 {
+            top: 135px;
+        }
+        .knopki_01 {
+            top: 77%;
+            left: 23.8%;
+        }
+        textarea.form-control {
+            height: 100px;
+        }
+    }
+    
     @media screen and (max-width: 1024px) {
         .displa1 h3 {
             top: 15px;
         }
         .forma_00 {
-            top: 30px;
+            top: 36px;
         }
         .forma_04 {
             top: 100px;
@@ -361,6 +381,25 @@
         .knopki_01 {
             top: 78%;
             left: 19%;
+        }
+        textarea.form-control {
+            height: 95px;
+        }
+    }
+    
+    @media screen and (max-width: 960px) {
+        .forma_00 {
+            top: 30px;
+        }
+        .forma_04 {
+            top: 93px;
+        }
+        textarea.form-control {
+            height: 85px;
+        }
+        .knopki_01 {
+            top: 75%;
+            left: 8.5%;
         }
     }
     
@@ -375,25 +414,85 @@
             top: 80%;
         }
         .forma_00 {
-            top: 25px;
+            top: 30px;
         }
         .form-control {
-            font-size: 10px;
-        }
-        .forma_04 {
-            top: 80px;
-        }
-        .knopki_01 {
-            top: 78%;
-            left: 8.8%;
-        }
-        .btn-group-lg>.btn,
-        .btn-lg {
             font-size: 15px;
         }
+        textarea.form-control {
+            height: 85px;
+        }
+        .forma_04 {
+            top: 92px;
+        }
+        .knopki_01 {
+            top: 75%;
+            left: 8.8%;
+        }
         .knopki_01 .btn {
-            height: 30px;
             padding: 5px 30px;
+        }
+        .btn {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+        .now h3,
+        .osobl1 h3,
+        .osobl_02 h3 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .xarakt,
+        .konnekt_01 {
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+        .caca h3 {
+            top: 18px;
+        }
+        .kamera_01 img {
+            top: -40px;
+        }
+        .kamera_01 p,
+        .kadr_01 p,
+        .kadr_03 p {
+            font-size: 15px;
+        }
+        .kon_02 img {
+            max-width: 65%;
+        }
+        .forma_02,
+        .forma_03 {
+            width: 47%;
+        }
+        .forma_00 {
+            display: flex;
+            justify-content: center;
+            top: 16px;
+        }
+        .forma_04 {
+            width: 94%;
+            top: 64px;
+        }
+        .knopki_01 {
+            left: 3%;
+        }
+        textarea.form-control {
+            height: 75px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        h1 {
+            font-size: 39px;
+        }
+        textarea.form-control {
+            height: 57px;
+        }
+        .knopki_01 {
+            top: 130px;
         }
     }
     
@@ -432,23 +531,35 @@
         }
         .forma_01 {
             background-color: #383838;
-            height: 250px;
+            height: 190px;
         }
         .forma_02,
         .forma_03 {
-            padding: 0 20px 20px 20px;
+            width: 47%;
         }
         .forma_04 {
-            top: 120px;
-            width: 100%;
-            padding: 0 20px;
+            width: 94%;
         }
         .knopki_01 {
-            left: 5.5%;
+            left: 4%;
+            top: 70%;
         }
         #button-up {
             right: 30px;
             bottom: 30px;
+        }
+        .kamera p {
+            font-size: 16px;
+        }
+        .now h3,
+        .osobl1 h3,
+        .osobl_02 h3 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .btn-secondary,
+        .btn-primary {
+            font-size: 17px;
         }
     }
     
@@ -477,10 +588,16 @@
             top: 65%;
         }
         .knopki_01 {
-            left: 6.5%;
+            left: 4.5%;
         }
         #button-up {
             right: 15px;
             bottom: 15px;
+        }
+        .foto h2 {
+            top: 6%;
+        }
+        .kamera p {
+            font-size: 15px;
         }
     }
