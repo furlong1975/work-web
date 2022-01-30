@@ -1,0 +1,603 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+        min-width: 320px;
+        background-color: lightgray;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #dc3545;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    h2 {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    h3 {
+        color: #ffffff;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    h4 {
+        color: #dc3545;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    p {
+        font-style: 13px;
+    }
+    /* 01 */
+    
+    .werch {
+        height: 60px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* 02 */
+    
+    .foto,
+    .caca,
+    .displa1,
+    .foto_01,
+    .forma_01 {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .foto h2 {
+        position: absolute;
+        top: 2.5%;
+    }
+    
+    .foto .knopki {
+        position: absolute;
+        top: 85%;
+        left: 65%;
+    }
+    
+    .foto .knopki .btn,
+    .foto_01 .knopki .btn,
+    .knopki_01 .btn {
+        height: 40px;
+        padding: 5px 40px;
+        background-color: #dc3545;
+        color: #ffffff;
+        transition: all .5s ease;
+    }
+    
+    .foto .knopki .btn:hover,
+    .foto_01 .knopki .btn:hover,
+    .knopki_01 .btn:hover {
+        color: #dc3545;
+        background-color: #ffffff;
+        opacity: .85;
+        font-weight: 500;
+    }
+    /* 03 */
+    
+    .kam,
+    .xarakter,
+    .konnekt {
+        background-color: #ffffff;
+    }
+    
+    .kamera,
+    .kamera_01,
+    .kadr_01,
+    .kadr_03 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .kamera p {
+        font-size: 18px;
+        margin: 40px 0 0 0;
+        max-width: 600px;
+    }
+    
+    .kamera img {
+        position: relative;
+        top: 30px;
+    }
+    /* 04 */
+    
+    .nowa {
+        background-color: #dc3545;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .now h3 {
+        max-width: 600px;
+        margin: 50px 0;
+        line-height: 32px;
+    }
+    
+    .now h3 span,
+    .caca h3 span,
+    .osobl1 h3 span,
+    .displa1 h3 span,
+    .osobl_02 h3 span {
+        font-weight: 600;
+    }
+    /* 05 */
+    
+    .xarakt,
+    .konnekt_01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .xarakt p {
+        font-size: 13px;
+        margin: 40px 10px 40px 0;
+        max-width: 300px;
+    }
+    /* 06 */
+    
+    .caca h3 {
+        position: absolute;
+        top: 50px;
+        max-width: 400px;
+        line-height: 32px;
+    }
+    /* 07 */
+    
+    .osobl,
+    .osobl_01 {
+        background-color: #dc3545;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 46px;
+        padding-bottom: 30px;
+    }
+    
+    .osobl1 h3,
+    .osobl_02 h3 {
+        max-width: 600px;
+        line-height: 32px;
+    }
+    /* 08 */
+    
+    .kam_01 {
+        background-color: #ffffff;
+        padding-bottom: 24px;
+    }
+    
+    .kamera_01 p,
+    .kadr_01 p,
+    .kadr_03 p,
+    .konne {
+        max-width: 600px;
+    }
+    
+    .kamera_01 img {
+        position: relative;
+        top: -50px;
+    }
+    /* 09 */
+    
+    .displa1 h3 {
+        position: absolute;
+        top: 30px;
+        max-width: 400px;
+        line-height: 32px;
+    }
+    /* 10 */
+    
+    .kadr,
+    .kadr_02 {
+        background-color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 24px;
+    }
+    /* 11 */
+    
+    .foto_01 .knopki {
+        position: absolute;
+        top: 85%;
+        left: 45%;
+    }
+    /* 12 */
+    
+    .konnekt_01 h4 {
+        margin-top: 40px;
+    }
+    
+    .konnekt_01 p {
+        font-size: 13px;
+        margin: 0 10px 40px 0;
+        max-width: 300px;
+    }
+    /* 15 */
+    
+    .konnekt_02 {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .konnekt_03 {
+        padding: 40px 0;
+    }
+    
+    .kon_02 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .kon_02 h4 {
+        color: #ffffff;
+        background-color: #dc3545;
+        border-radius: 3px;
+        height: 30px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .kon_02 p {
+        font-size: 13px;
+        margin: 3px 0 3px 0;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .mod {
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .fa-caret-down {
+        font-size: 25px;
+        color: #dc3545;
+        margin-top: -18px;
+    }
+    
+    .kon_02 img {
+        max-width: 85%;
+        padding-top: 10px;
+    }
+    /* 16 */
+    
+    .forma_00 {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .forma_02 {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    
+    .forma_03 {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    
+    .forma_04 {
+        position: absolute;
+        top: 150px;
+        max-width: 600px;
+    }
+    
+    .knopki_01 {
+        position: absolute;
+        top: 75%;
+        left: 27.5%;
+    }
+    /* 17 */
+    
+    #button-up {
+        display: none;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+        color: #880000;
+        font-size: 40px;
+        font-weight: 900;
+        transition: .5s;
+    }
+    
+    #button-up:hover {
+        cursor: pointer;
+        color: #383838;
+        transition: .5s;
+    }
+    
+    textarea.form-control {
+        height: 130px;
+    }
+    /* 18 */
+    
+    .modal-body p {
+        margin-bottom: 0;
+    }
+    
+    .btn-primary {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .forma_00 {
+            top: 70px;
+        }
+        .forma_04 {
+            top: 135px;
+        }
+        .knopki_01 {
+            top: 77%;
+            left: 23.8%;
+        }
+        textarea.form-control {
+            height: 100px;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .displa1 h3 {
+            top: 15px;
+        }
+        .forma_00 {
+            top: 36px;
+        }
+        .forma_04 {
+            top: 100px;
+        }
+        .knopki_01 {
+            top: 78%;
+            left: 19%;
+        }
+        textarea.form-control {
+            height: 95px;
+        }
+    }
+    
+    @media screen and (max-width: 960px) {
+        .forma_00 {
+            top: 30px;
+        }
+        .forma_04 {
+            top: 93px;
+        }
+        textarea.form-control {
+            height: 85px;
+        }
+        .knopki_01 {
+            top: 75%;
+            left: 8.5%;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .caca h3 {
+            top: 30px;
+        }
+        .displa1 h3 {
+            top: 5px;
+        }
+        .foto_01 .knopki {
+            top: 80%;
+        }
+        .forma_00 {
+            top: 30px;
+        }
+        .form-control {
+            font-size: 15px;
+        }
+        textarea.form-control {
+            height: 85px;
+        }
+        .forma_04 {
+            top: 92px;
+        }
+        .knopki_01 {
+            top: 75%;
+            left: 8.8%;
+        }
+        .knopki_01 .btn {
+            padding: 5px 30px;
+        }
+        .btn {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+        .now h3,
+        .osobl1 h3,
+        .osobl_02 h3 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .xarakt,
+        .konnekt_01 {
+            flex-direction: column;
+            padding-bottom: 20px;
+        }
+        .caca h3 {
+            top: 18px;
+        }
+        .kamera_01 img {
+            top: -40px;
+        }
+        .kamera_01 p,
+        .kadr_01 p,
+        .kadr_03 p {
+            font-size: 15px;
+        }
+        .kon_02 img {
+            max-width: 65%;
+        }
+        .forma_02,
+        .forma_03 {
+            width: 47%;
+        }
+        .forma_00 {
+            display: flex;
+            justify-content: center;
+            top: 16px;
+        }
+        .forma_04 {
+            width: 94%;
+            top: 64px;
+        }
+        .knopki_01 {
+            left: 3%;
+        }
+        textarea.form-control {
+            height: 75px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        h1 {
+            font-size: 39px;
+        }
+        textarea.form-control {
+            height: 57px;
+        }
+        .knopki_01 {
+            top: 130px;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        .foto h2 {
+            top: 4.0%;
+        }
+        .foto .knopki {
+            top: 75%;
+            left: 60%;
+        }
+        .xarakt {
+            flex-direction: column;
+        }
+        .caca h3 {
+            top: 10px;
+            font-size: 20px;
+        }
+        .kamera_01 img {
+            top: -30px;
+        }
+        .foto_01 .knopki {
+            top: 70%;
+        }
+        .konnekt_01 {
+            flex-direction: column;
+        }
+        .forma_01 img {
+            display: none;
+        }
+        .forma_01 {
+            background-color: #383838;
+            height: 190px;
+        }
+        .forma_02,
+        .forma_03 {
+            width: 47%;
+        }
+        .forma_04 {
+            width: 94%;
+        }
+        .knopki_01 {
+            left: 4%;
+            top: 70%;
+        }
+        #button-up {
+            right: 30px;
+            bottom: 30px;
+        }
+        .kamera p {
+            font-size: 16px;
+        }
+        .now h3,
+        .osobl1 h3,
+        .osobl_02 h3 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .btn-secondary,
+        .btn-primary {
+            font-size: 17px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .foto .knopki {
+            top: 70%;
+            left: 50%;
+        }
+        .caca h3 {
+            font-size: 17px;
+            line-height: 25px;
+        }
+        .foto_01 .knopki {
+            top: 65%;
+        }
+        .knopki_01 {
+            left: 4.5%;
+        }
+        #button-up {
+            right: 15px;
+            bottom: 15px;
+        }
+        .foto h2 {
+            top: 6%;
+        }
+        .kamera p {
+            font-size: 15px;
+        }
+    }
